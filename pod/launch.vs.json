@@ -1,0 +1,30 @@
+{
+  "version": "0.2.1",
+  "defaults": {},
+  "configurations": [
+    {
+      "type": "default",
+      "project": "CMakeLists.txt",
+      "projectTarget": "pod_windows.exe",
+      "name": "Final - 60 masini aleator",
+      "currentDir": "${workspaceRoot}",
+      "args": [ "60", "aleator", "final_windows.log" ]
+    },
+    {
+      "type": "default",
+      "project": "CMakeLists.txt",
+      "projectTarget": "pod_windows_v1.exe",
+      "name": "V1 - masina asteapta din cauza sensului opus",
+      "currentDir": "${workspaceRoot}",
+      "args": [ "30", "opus", "v1_sens_opus_windows.log" ]
+    },
+    {
+      "type": "default",
+      "project": "CMakeLists.txt",
+      "projectTarget": "pod_windows_v1.exe",
+      "name": "V1 - masina grea depasita de masini usoare",
+      "currentDir": "${workspaceRoot}",
+      "args": [ "30", "greu", "v1_greu_depasit_windows.log" ]
+    }
+  ]
+}
